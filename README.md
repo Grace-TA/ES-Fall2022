@@ -11,5 +11,5 @@
 
 ### 臺灣首位GitHub設計師現身說法：GitHub就是開發者的作品集: https://www.ithome.com.tw/news/95284
 
-### 行事曆: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://resource.vnu.edu.tw/doc/calendar.pdf
+### 行事曆: https://resource.vnu.edu.tw/doc/calendar.pdf
 
