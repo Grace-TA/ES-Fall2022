@@ -8,7 +8,7 @@
 
 ### 電路
 
-https://user-images.githubusercontent.com/89304181/188299331-14a6de84-4353-4cb6-ad8d-ec29600038d7.mp4
+https://user-images.githubusercontent.com/89304181/188299386-4935a9de-db2d-41ae-bfc8-39ceee1251aa.mp4
 
 ### 程式
 ![image](https://user-images.githubusercontent.com/89304181/188298870-d06bfe5b-a032-40ac-849e-ae70112ac853.png)
