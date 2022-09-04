@@ -4,10 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/89304181/187059118-7c8d27ae-2c83-4651-af03-4605608bf2f7.png)
 
-## 1-2 在TinkerCAD開一個新的Circuit, 分別使甪R, Y, G三種顏色的LED, ALL ON (亮) 0.5秒, OFF(滅) 0.5秒
+## 1-2 在TinkerCAD開一個新的Circuit, 分別使甪R, G, B三種顏色的LED, ALL ON (亮) 0.5秒, OFF(滅) 0.5秒
 
 ### 電路
-![image](https://user-images.githubusercontent.com/89304181/188298861-0aa3e476-a060-41cf-8932-7be6db32b4c0.png)
+
+https://user-images.githubusercontent.com/89304181/188299331-14a6de84-4353-4cb6-ad8d-ec29600038d7.mp4
 
 ### 程式
 ![image](https://user-images.githubusercontent.com/89304181/188298870-d06bfe5b-a032-40ac-849e-ae70112ac853.png)
