@@ -18,5 +18,7 @@
 
 ### 電路
 
+https://user-images.githubusercontent.com/89304181/188299131-3e957fe5-1edc-4fd9-8c4b-a6011b21585c.mp4
+
 
 ### 程式
