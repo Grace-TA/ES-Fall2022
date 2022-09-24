@@ -61,7 +61,9 @@ void loop()
       
       d1 = String(String(i) + "X" + String(j) + "=" + String(result));
 
-     // Your Code
+     /*
+       待完成
+     */
       
       Serial.println(d1 + ", " + d2 + ", " + d3);
     
