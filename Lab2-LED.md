@@ -156,3 +156,74 @@ void loop()
 }
 
 ```
+## 實作2-4 analogRead(), 1024解析度 (i.e.,10-bit): 可變電阻 + 序列監視器與輸出; 當你改變可變電阻的阻值(e.g., 10K-ohm)時，序列監視器輸出的數值有什麼改變? 數值又有什麼意義呢? 可試將你的想法寫在你的GitHub Page中喔!
+
+### 電路 & Demo
+
+https://user-images.githubusercontent.com/89304181/192082695-ac52c281-1b63-46be-a956-c7f871b6ac03.mp4
+
+
+### 程式
+
+```C
+int sensorValue = 0;
+
+void setup()
+{
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  // read the input on analog pin 0:
+  sensorValue = analogRead(A0);
+  // print out the value you read:
+  Serial.println(sensorValue);
+  delay(10); // Delay a little bit to improve simulation performance
+}
+
+```
+
+## 實作2-5: 按下按鍵, Green LED亮 & Red LED滅; 放開按鍵, Green LED滅 & Red LED亮. 想要再深入的同學可以試試喔. (思考方向: digitalRead(), digitalWrite(): 按鍵 +序列輸出 + LED)
+### 電路 & Demo
+
+https://user-images.githubusercontent.com/89304181/192082725-ca8efeee-9b69-4656-9eb5-91ce840082a3.mp4
+
+### 程式
+
+```C
+int buttonState = 0;
+int GLED = 13;
+int RLED = 8;
+void setup()
+{
+  pinMode(2, INPUT);
+  
+  pinMode(GLED, OUTPUT);
+  pinMode(RLED, OUTPUT);
+  
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  // read the state of the pushbutton value
+  buttonState = digitalRead(2);
+  // check if pushbutton is pressed.  if it is, the
+  // buttonState is HIGH
+  if (buttonState == HIGH) {
+    // turn LED on
+    digitalWrite(GLED, HIGH);
+    digitalWrite(RLED, LOW);
+    
+  } else {
+    // turn LED off
+    digitalWrite(GLED, LOW);
+    digitalWrite(RLED, HIGH);
+  }
+  Serial.println(buttonState);
+  delay(10); // Delay a little bit to improve simulation performance
+}
+
+```
