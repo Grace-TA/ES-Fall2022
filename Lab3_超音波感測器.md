@@ -60,13 +60,11 @@ void loop()
       result3 = (i+2)*j;
       
       d1 = String(String(i) + "X" + String(j) + "=" + String(result));
-      d2 = String(String(i+1) + "X" + String(j) + "=" + String(result2));
-      d3 = String(String(i+2) + "X" + String(j) + "=" + String(result3));
+
+     // Your Code
       
       Serial.println(d1 + ", " + d2 + ", " + d3);
-
-
-       
+    
       aa+=1;
       
       delay(100);
