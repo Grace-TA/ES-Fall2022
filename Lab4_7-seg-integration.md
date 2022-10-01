@@ -1,6 +1,22 @@
 # ES2022 - 實作4: 七段顯示器, LCD 顯示器 + 超音波感測器
 
+<a name="000"/>
+---
+
+## 目錄(Table of Contents)
+
+[Lab 4-1 用七段顯示器來顯示數字"8."](#111)
+
+[Lab 4-2 如下圖的Demo, 用七段顯示器, 顯示 . →1→ ... → 9 → 0 → 全滅, 狀態改變的間隔時間為0.5秒](#222)
+
+[Lab 4-3 LCD顯示"Hello" + 你的英文名字 (e.g., "Hello Horace")](#333)
+
+[## Lab 4-4 整合超音波感測器 + LCD + LED](#444)
+
+
 ## Lab 4-1 用七段顯示器來顯示數字"8."
+
+<a name="111"/>
 
 ### Circuit
 
@@ -41,7 +57,11 @@ seg71(1, 1, 1, 1, 1, 1, 1, 1); // 8
 }
 ````
 
+[return to content](#000) 
+
 ## Lab 4-2 如下圖的Demo, 用七段顯示器, 顯示 . →1→ ... → 9 → 0 → 全滅, 狀態改變的間隔時間為0.5秒
+
+<a name="222"/>
 
 ### Circuit
 
@@ -54,6 +74,8 @@ seg71(1, 1, 1, 1, 1, 1, 1, 1); // 8
 ---
 
 ## Lab 4-3 LCD顯示"Hello" + 你的英文名字 (e.g., "Hello Horace")
+
+<a name="333"/>
 
 ### Circuit
 
@@ -82,12 +104,14 @@ void loop() {
   // print the number of seconds since reset:
   lcd.print(millis() / 100);
 ````
-### O
 
 ![image](https://user-images.githubusercontent.com/89304181/137607314-aeab5548-2264-46eb-b05d-ca0d6114a166.png)
 
+[return to content](#000) 
 
-## Lab 4-4 整合超音波感測器 + LCD: 參考之前的實作, 將超音波感測器傳回的距離, 在LCD上面顯示, 同時也和之前的實作一樣, 在序列輸出. 另外, 當物體的距離小於150cm時, 則亮紅色LED, 否則亮綠色LED
+## Lab 4-4 整合超音波感測器 + LCD + LED: 參考之前的實作, 將超音波感測器傳回的距離, 在LCD上面顯示, 同時也和之前的實作一樣, 在序列輸出. 另外, 當物體的距離小於150cm時, 則亮紅色LED, 否則亮綠色LED
+
+<a name="444"/>
 
 ### Circuit
 
@@ -146,3 +170,4 @@ Developed for Embedded System Course, VNU by Horace. Fall 2021
 
 ````
 
+[return to content](#000) 
