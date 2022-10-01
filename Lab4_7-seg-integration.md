@@ -1,7 +1,6 @@
 # ES2022 - 實作4: 七段顯示器, LCD 顯示器 + 超音波感測器
 
 <a name="000"/>
----
 
 ## 目錄(Table of Contents)
 
