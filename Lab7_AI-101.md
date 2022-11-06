@@ -14,3 +14,7 @@
 ## Lab 7-3 確認Lab7完成的兩個Notebook都成功的存在你的雲端硬碟(例如:/ES2022)目錄下.
 
 ![image](https://user-images.githubusercontent.com/89304181/198828289-8eddc156-b3c6-427f-8f64-c8866c744930.png)
+
+## Reference: TA's colab notebook
+
+https://colab.research.google.com/drive/1jbllzKiNNKs9WqY801xbDazHEUWfi7Fr?usp=sharing
