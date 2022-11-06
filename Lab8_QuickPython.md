@@ -6,3 +6,5 @@
 
 ## Lab 8-2 零基礎Python快速入門與實作, 2/2
 
+
+## Lab 8-3 建立新的Colab Notebook (e.g., Filename: ShowPhoto.ipynb), 用Python來Show一下圖像
