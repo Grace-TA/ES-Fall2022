@@ -74,3 +74,11 @@ print('*** Done by %s at ' % ts3,today, type(today))
 
 ```
 
+### Python的5個回顧練習
+
+![image](https://user-images.githubusercontent.com/89304181/202888344-c2d7ffa0-4284-4e80-8751-a8e9a36def37.png)
+
+![image](https://user-images.githubusercontent.com/89304181/202888365-f916ec6b-d0b5-41d3-80af-cd344aab4ee6.png)
+
+
+
