@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/89304181/192084084-b356cb4d-b1d5-4506-
 https://user-images.githubusercontent.com/89304181/192084087-25c4fbc3-4482-4d6d-a6be-1d87d15b7ffe.mp4
 
 
-## Lab 3-3: Arudino常用的C語言程式介紹與實作
+## Lab 3-3: Arduino常用的C語言程式介紹與實作
 
 ### Circuit, Demo
 
